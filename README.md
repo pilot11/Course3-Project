@@ -13,9 +13,9 @@
 ## Uses descriptive activity names to name the activities in the data set.
 1. Read "activity_labels.txt" in R.
 2. Change column names to "activity_code" and "activity".
-3. Read activity file "y_train.txt" and "y_test.txt" in R.
-4. Concat these activity data to vector and use cbind() fuction to add this vector to step2 result as a new colmn.Set the new column name "activity_code".
-5. Merge the labels data and the data after cbind.
+3. Read activity file "y_train.txt" and "y_test.txt" in R.They are activity code.
+4. Concat these activity code data to vector and use cbind() fuction to add this vector to step2 result as a new colmn.Set the new column name "activity_code".
+5. Merge the activity labels data and the data after "cbind".
 
 
 ## Appropriately labels the data set with descriptive variable names. 
