@@ -1,3 +1,25 @@
+variables:
+	X_traintable    : training data ,data frame
+	X_testtable     : test data ,data frame
+	mergedtable     : training and test data ,data frame
+	
+	featurestable   : features data ,data frame ,first col is col index of training and test data,second col is col names of training and test data
+	featureslogic   : logical vector ,its length same as the row count of featurestable,is used to mark the mean and standard deviation columns
+	features        : column names of training and test data, vector
+	extractfeatures : column names of the mean and standard deviation ,data frame
+	extractdata     : training and test data just include the mean and standard deviation data,data frame
+
+	activitytable   : activity labels data,data frame,first col is activity code,second col is activity names
+	Y_traintable    : train data's activity code ,data frame, only one col
+	Y_testtable     : test data's activity code ,data frame, only one col
+	Y               : train and test data's activity code,vector
+	activitydata    : training and test data with "activity_code" column ,data frame
+	activity        : training and test data with "activity" column and "activity_code" column ,data frame
+	featurenames    : column names of the mean and standard deviation ,vector
+	matrixdata      : the mean and standard deviation data with "activity_code" column,matrix
+	meandata        : the average of each variable for each activity and each subject
+
+
 Output:
 	rows name:
 		1 WALKING
