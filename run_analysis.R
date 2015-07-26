@@ -1,12 +1,12 @@
 # download the dataset file from internet.
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","Dataset.zip","curl")
-if(!file.exists("Dataset.zip")){
-    stop("Download dataset file from internet failed,please check you network and try again later.")
-}
+#download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","Dataset.zip","curl")
+#if(!file.exists("Dataset.zip")){
+#    stop("Download dataset file from internet failed,please check you network and try again later.")
+#}
 
 
 # unzip the dataset file to directory "./dataset"
-unzip("Dataset.zip")
+#unzip("Dataset.zip")
 
 
 # Merges the training and the test sets to create one data set
